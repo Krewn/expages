@@ -1,0 +1,57 @@
+body{
+	background-color: #ecf0f1;
+	font-family: "Source Sans Pro", sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+#bCard {
+	max-width : 50vw;
+	padding: 20px;
+	background-color: #FFFFFF;
+	box-shadow: 5px 5px rgba(0,0,0,0.1);
+	text-align: center;
+	margin: auto;
+	vertical-align: middle;
+}
+#cCard {
+	max-width : 50vw;
+	padding: 20px;
+	background-color: #FFFFFF;
+	box-shadow: 5px 5px rgba(0,0,0,0.1);
+}
+
+.some-class{
+	font-weight: 200;
+	font-style: italic;
+	font-size: 1.5rem;
+	
+}
+
+img{
+	border: 5px solid #ecf0f1;
+	border-radius: 50%;
+	width: 50%;
+	max-width: 150px;
+}
+
+.icon-link{
+	padding-left: 2px;
+	padding-right: 2px;
+	transition: padding-right  .3s ease-in;
+	transition: padding-left  .3s ease-in;
+}
+
+.icon-link, icon-link:visited{
+	color: #ecf0f1;
+}
+.icon-link:hover{
+	color: #2980b9;
+	padding-left: 8px;
+	padding-right: 8px;
+	transition: padding-right  .3s ease-out;
+	transition: padding-left  .3s ease-out;
+	
+}
